@@ -1,0 +1,13 @@
+table {
+  border: 2px solid black;
+  padding: 25 25 25;
+  width: 650px;
+}
+
+th {
+  align-content: center;
+}
+
+.left-column {
+  text-align: left;
+}

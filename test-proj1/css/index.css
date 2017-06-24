@@ -1,5 +1,7 @@
 p {
   color:#262626;
+  text-indent: 35px;
+  line-height: 30px;
 }
 
 .list {
@@ -8,4 +10,16 @@ p {
 
 #header {
   color: red;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: greenyellow;
+}
+
+a:hover {
+  color: rosybrown;
 }
