@@ -10,10 +10,12 @@
       background-image: -moz-linear-gradient(top, #000000, #FFFFFF);
       background-image: linear-gradient(to bottom, #000000, #FFFFFF);
     }
+
     .flex-container {
       display: flex;
       flex-direction: row;
     }
+
     .flex-item {
       width: 25%;
       align-content: center;
@@ -21,58 +23,73 @@
       align-items: center;
       text-align: center;
     }
+
     .flex-item:hover {
       border-top: dotted red;
     }
+
     .menu1 {
       display: none;
       margin-left: 10%;
     }
+
     .menu2 {
       display: none;
       margin-left: 10%;
     }
+
     .menu3 {
       display: none;
       margin-left: 10%;
     }
+
     .menu4 {
       display: none;
       margin-left: 10%;
     }
+
     .flex-item:nth-child(1):hover .menu1 {
       position: absolute;
       background: rgba(200, 30, 30, 0.2);
       display: block;
       border-bottom: 2px solid rgba(210, 15, 15, 0.3);
     }
+
     .flex-item:nth-child(2):hover .menu2 {
       position: absolute;
       background: rgba(200, 30, 30, 0.2);
       display: block;
       border-bottom: 2px solid rgba(210, 15, 15, 0.3);
     }
+
     .flex-item:nth-child(3):hover .menu3 {
       position: absolute;
       background: rgba(200, 30, 30, 0.2);
       display: block;
       border-bottom: 2px solid rgba(210, 15, 15, 0.3);
     }
+
     .flex-item:nth-child(4):hover .menu4 {
       position: absolute;
       background: rgba(200, 30, 30, 0.2);
       display: block;
       border-bottom: 2px solid rgba(210, 15, 15, 0.3);
     }
+
     .menu-item:hover {
       color: rebeccapurple;
     }
-
     /*
       footer paft
     */
+
     .footer {
       margin-top: 100%;
+    }
+
+    .social-icons>img {
+      width: 30px;
+      height: 40px;
     }
   </style>
 </head>
@@ -115,8 +132,12 @@
     </div>
   </header>
   <footer class="footer">
-    <div> 
-      fotter1
+    <div >
+      <div class="social-icons">
+        <img src="./images/facebook-logo.svg" alt="facebook">
+        <img src="./images/twitter-logo-silhouette.svg" alt="twitter">
+        <img src="./images/linkedin-logo.svg" alt="linkedin">
+      </div>
     </div>
   </footer>
 </body>
