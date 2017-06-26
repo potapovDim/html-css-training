@@ -1,0 +1,126 @@
+<!DOCTYPE htm>
+<html>
+
+<head>
+  <title>Новий</title>
+  <style lang="css">
+    .first {
+      border: 3px solid yellow;
+      width: 40px;
+      height: 40px;
+      color: green;
+    }
+    .second {
+      display: none;
+      color: darkblue;
+    }
+    .first:hover .second {
+      display: block;
+      color: darkorange;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+    }
+    .flex-item {
+      width: 25%;
+      align-content: center;
+      color: wheat;
+      align-items: center;
+      text-align: center;
+    }
+    .flex-item:hover {
+      border-top: dotted red;
+    }
+    .menu1 {
+      display: none;
+      margin-left: 10%;
+    }
+    .menu2 {
+      display: none;
+      margin-left: 10%;
+    }
+    .menu3 {
+      display: none;
+      margin-left: 10%;
+    }
+    .menu4 {
+      display: none;
+      margin-left: 10%;
+    }
+    .flex-item:nth-child(1):hover .menu1 {
+      position: absolute;
+      background: rgba(200, 30, 30, 0.4);
+      display: block;
+    }
+    .flex-item:nth-child(2):hover .menu2 {
+      position: absolute;
+      background: rgba(200, 30, 30, 0.4);
+      display: block;
+    }
+    .flex-item:nth-child(3):hover .menu3 {
+      position: absolute;
+      background: rgba(200, 30, 30, 0.4);
+      display: block;
+    }
+    .flex-item:nth-child(4):hover .menu4 {
+      position: absolute;
+      background: rgba(200, 30, 30, 0.4);
+      display: block;
+    }
+    body {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#FFFFFF));
+      background-image: -webkit-linear-gradient(top, #000000, #FFFFFF);
+      background-image: -moz-linear-gradient(top, #000000, #FFFFFF);
+      background-image: linear-gradient(to bottom, #000000, #FFFFFF);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="flex-container">
+      <div class="flex-item">Head 1
+        <div class="menu1">
+          <div>Head group 1</div>
+          <div>Head group 2</div>
+          <div>Head group 3</div>
+          <div>Head group 4</div>
+        </div>
+      </div>
+      <div class="flex-item">Head 2
+        <div class="menu2">
+          <div>Head group 1</div>
+          <div>Head group 2</div>
+          <div>Head group 3</div>
+          <div>Head group 4</div>
+        </div>
+      </div>
+      <div class="flex-item">Head 3
+        <div class="menu3">
+          <div>Head group 1</div>
+          <div>Head group 2</div>
+          <div>Head group 3</div>
+          <div>Head group 4</div>
+        </div>
+      </div>
+      <div class="flex-item">Head 4
+        <div class="menu4">
+          <div>Head group 1</div>
+          <div>Head group 2</div>
+          <div>Head group 3</div>
+          <div>Head group 4</div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <div class="first">
+    DIV1
+    <deiv class="second">
+      DIV2
+  </div>
+  </div>
+</body>
+
+</html>

@@ -4,8 +4,8 @@ p {
   line-height: 30px;
 }
 
-.list {
-  color: #696969
+ol {
+  list-style-type: lower-roman;  /*тип списку*/
 }
 
 #header {
@@ -22,4 +22,10 @@ a:visited {
 
 a:hover {
   color: rosybrown;
+}
+
+.border {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: red;
 }
