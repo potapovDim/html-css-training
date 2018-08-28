@@ -1,0 +1,26 @@
+.app__container__flex {
+  display: flex;
+}
+
+.left_menu {
+  width: 5%;
+}
+
+.flex__grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__container {
+  margin: 2px;
+  background: rgba(100, 100, 200, 0.1);
+  border: 2px;
+  border-color: grey;
+}
+
+.info__container {
+  margin: 3px;
+  background: rgba(100, 100, 200, 0.1);
+  border: 3px;
+  border-color: grey;
+}
